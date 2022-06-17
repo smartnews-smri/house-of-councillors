@@ -11,8 +11,8 @@
 
 ## 公開データの見方
 
-- [/data](https://github.com/smartnews-smri/house-of-councillors/tree/main/data)にデータファイルを公開しています。
-  - すべてのデータはCSVとJSONの両方で公開しています。
+- [/data/](https://github.com/smartnews-smri/house-of-councillors/tree/main/data)にデータファイルを公開しています。
+  - すべてのデータはCSVとJSONの形式で公開しています（内容は同じです）。
   - 原則としてデータの表記等は元データに準じますが、以下の変更を加えています。
     - 和暦を西暦に変換し表記をYYYY-MM-DDに統一（例：「令和4年1月28日」→「2022-01-28」）
     - 全角の英数字を半角に統一（例：「ＮＨＫ決算」→「NHK決算」）
@@ -20,19 +20,19 @@
 
 ### 各データの内容
 - [kaiha.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.csv) / [kaiha.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.json)
-  - 会派（政党）の名称・略称と、会派別の議員数を掲載するファイルです。
+  - 会派（政党）の名称・略称と、会派別の議員数を掲載。
 - [giin.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/giin.csv) / [giin.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/giin.json)
-  - 各議員の氏名や当選年、経歴を掲載するファイルです。
+  - 各議員の氏名や当選年、経歴を掲載。
 - [gian.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.csv) / [gian.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.json)
-  - 第153回国会（臨時会、2001年）以降の議案を掲載するファイルです。
+  - 提出された議案の付託委員会、採決結果などを掲載。データは第153回国会（臨時会、2001年）以降。
 - [syuisyo.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/syuisyo.csv) / [syuisyo.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/syuisyo.json)
-  - 第1回国会（特別会、1947年）以降の質問主意書を掲載するファイルです。
+  - 提出された質問主意書の提出者、提出日などを掲載。データは第1回国会（特別会、1947年）以降。
 
 
 ## 閲覧用ページについて
 - 本プロジェクトのデータを閲覧・検索できるページを公開しています。
 - https://smartnews-smri.github.io/house-of-councillors/
-- 検索で絞り込んだデータだけダウンロードすることも可能です。
+- 検索で絞り込んだデータのみダウンロードすることも可能です。
 - なお議案と質問主意書データは量が多いため、閲覧用ページにおいて全件の掲載はしていません。
 
 
