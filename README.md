@@ -19,24 +19,24 @@
     - 氏名などに使われるスペースの重複を圧縮（例：「山東　　昭子」→「山東　昭子」）
 
 ### 各データの内容
-- kaiha.csv / kaiha.json
+- [kaiha.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.csv) / [kaiha.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.json)
   - 会派（政党）の名称・略称と、会派別の議員数を掲載するファイルです。
-- giin.csv / giin.json
+- [giin.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/giin.csv) / [giin.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/giin.json)
   - 各議員の氏名や当選年、経歴を掲載するファイルです。
-- gian.csv / gian.json
+- [gian.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.csv) / [gian.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.json)
   - 第153回国会（臨時会、2001年）以降の議案を掲載するファイルです。
-- syuisyo.csv / syuisyo.json
+- [syuisyo.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/syuisyo.csv) / [syuisyo.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/syuisyo.json)
   - 第1回国会（特別会、1947年）以降の質問主意書を掲載するファイルです。
 
 
 ## 閲覧用ページについて
-
 - 本プロジェクトのデータを閲覧・検索できるページを公開しています。
-
+- https://smartnews-smri.github.io/house-of-councillors/
+- 検索で絞り込んだデータだけダウンロードすることも可能です。
+- なお議案と質問主意書データは量が多いため、閲覧用ページにおいて全件の掲載はしていません。
 
 
 ## 二次利用とライセンスについて
-
 - すべてのデータとソースコードは自由に閲覧・ダウンロードが可能です。
 - GitHubプロジェクトのライセンスはMITライセンスとしており、商用・非商用を問わずご自由にお使いいただけます。
 - ソースコード等を引用する際の著作権表記は『スマートニュース メディア研究所「参議院 会派・議員・議案・質問主意書データ」』としてください。
