@@ -150,7 +150,7 @@ const init = () => {
 
     $("#social-button-copy").on("click", function(e){
       e.preventDefault();
-      let text = "参議院　会派・議員・議案・質問主意書データ - スマートニュース メディア研究所\nhttps://smartnews-smri.github.io/house-of-councillors/";
+      let text = "参議院　議員・会派・議案・質問主意書データ - スマートニュース メディア研究所\nhttps://smartnews-smri.github.io/house-of-councillors/";
       let $textarea = $('<textarea></textarea>');
       $textarea.text(text);
       $(this).append($textarea);
