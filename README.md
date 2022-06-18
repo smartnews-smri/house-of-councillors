@@ -19,10 +19,10 @@
     - 氏名などに使われるスペースの重複を圧縮（例：「山東　　昭子」→「山東　昭子」）
 
 ### 各データの内容
-- [kaiha.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.csv) / [kaiha.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.json)
-  - 会派（政党）の名称・略称と、会派別の議員数を掲載。
 - [giin.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/giin.csv) / [giin.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/giin.json)
   - 各議員の氏名や当選年、経歴を掲載。
+- [kaiha.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.csv) / [kaiha.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.json)
+  - 会派（政党）の名称・略称と、会派別の議員数を掲載。
 - [gian.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.csv) / [gian.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.json)
   - 提出された議案の付託委員会、採決結果などを掲載。データは第153回国会（臨時会、2001年）以降。
 - [syuisyo.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/syuisyo.csv) / [syuisyo.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/syuisyo.json)
