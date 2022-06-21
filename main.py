@@ -143,7 +143,7 @@ def update_gian(kaiji):
 
       # Clean if the value consists of only spaces
       ret = clean_value(ret)
-
+      
       return ret
 
 
@@ -386,7 +386,7 @@ def update_giin(kaiji):
         row[6] = convert_to_wcalendar(tds[4].text)
 
         result.append(row)
-
+    
     return result
 
 
@@ -665,7 +665,7 @@ def update_syuisyo(kaiji):
     html = BeautifulSoup(r.content, "html.parser")
 
     tables = html.find_all("table")
-
+    
     row[10] = convert_to_wcalendar(tables[1].find("td").text)
     row[11] = convert_to_wcalendar(tables[3].find_all("td")[0].text)
     row[12] = convert_to_wcalendar(tables[3].find_all("td")[1].text)
@@ -719,6 +719,21 @@ def update_syuisyo(kaiji):
 
 
 #-------------------------------------------------------------
+# Update time
+#-------------------------------------------------------------
+def update_time():
+  dt_now = datetime.datetime.now()
+  dt_str = dt_now.strftime('%Y-%m-%d %H:%M:%S')
+
+  latest = {
+    'file_update': dt_str
+  }
+
+  save_file(DIR_DATA + "updatetime.json", latest)
+
+
+
+#-------------------------------------------------------------
 # Main
 #-------------------------------------------------------------
 
@@ -728,3 +743,4 @@ update_gian(kaiji)
 update_giin(kaiji)
 update_kaiha(kaiji)
 update_syuisyo(kaiji)
+update_time()
