@@ -7,6 +7,8 @@
 - [参議院のウェブサイト](https://www.sangiin.go.jp/)では議案、議員、会派（政党）、質問主意書といったさまざまな情報が公開されていますが、検索や集計を行うには各ページに分かれたデータを整理する必要があります。
 - そこでスマートニュース メディア研究所では、参議院ウェブサイトをクローリングして各データを整理し、CSVやJSONなど機械判読可能なデータで公開するとともに、[閲覧用のページ](https://smartnews-smri.github.io/house-of-councillors/)を作成して自由に検索・集計できるようにしました。
 
+![image_1200_630](https://user-images.githubusercontent.com/12462251/176725779-0d52a061-6568-4472-a558-3bc54bdf70df.png)
+
 ## 公開データの見方
 
 - [/data/](https://github.com/smartnews-smri/house-of-councillors/tree/main/data)にデータファイルを公開しています。
