@@ -1,13 +1,11 @@
-# 参議院オープンデータ - スマートニュース メディア研究所
-- 参議院の議員、会派、議案、質問主意書を整理してデータベース化しました。
+# 国会議案データベース：参議院
+- 参議院の公式ウェブサイトから議案、議員、会派、質問主意書をデータベース化しました。
 - 商用・非商用を問わず、自由にデータのダウンロードや検索が可能です。
 
 ## 概要
 
-- [参議院のウェブサイト](https://www.sangiin.go.jp/)では会派（政党）、議員、議案、質問主意書といったさまざまな情報が公開されていますが、検索や集計を行うには各ページに分かれたデータを整理する必要があります。
+- [参議院のウェブサイト](https://www.sangiin.go.jp/)では議案、議員、会派（政党）、質問主意書といったさまざまな情報が公開されていますが、検索や集計を行うには各ページに分かれたデータを整理する必要があります。
 - そこでスマートニュース メディア研究所では、参議院ウェブサイトをクローリングして各データを整理し、CSVやJSONなど機械判読可能なデータで公開するとともに、[閲覧用のページ](https://smartnews-smri.github.io/house-of-councillors/)を作成して自由に検索・集計できるようにしました。
-
-![image_1200_630](https://user-images.githubusercontent.com/12462251/174425639-f2edfcf7-6084-4d7a-ac25-1678a4b28aa1.png)
 
 ## 公開データの見方
 
@@ -19,12 +17,12 @@
     - 氏名などに使われるスペースの重複を圧縮（例：「山東　　昭子」→「山東　昭子」）
 
 ### 各データの内容
+- [gian.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.csv) / [gian.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.json)
+  - 提出された議案の付託委員会、採決結果などを掲載。データは第153回国会（臨時会、2001年）以降。
 - [giin.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/giin.csv) / [giin.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/giin.json)
   - 各議員の氏名や当選年、経歴を掲載。
 - [kaiha.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.csv) / [kaiha.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/kaiha.json)
   - 会派（政党）の名称・略称と、会派別の議員数を掲載。
-- [gian.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.csv) / [gian.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/gian.json)
-  - 提出された議案の付託委員会、採決結果などを掲載。データは第153回国会（臨時会、2001年）以降。
 - [syuisyo.csv](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/syuisyo.csv) / [syuisyo.json](https://github.com/smartnews-smri/house-of-councillors/blob/main/data/syuisyo.json)
   - 提出された質問主意書の提出者、提出日などを掲載。データは第1回国会（特別会、1947年）以降。
 
@@ -39,6 +37,5 @@
 ## 二次利用とライセンスについて
 - すべてのデータとソースコードは自由に閲覧・ダウンロードが可能です。
 - GitHubプロジェクトのライセンスはMITライセンスとしており、商用・非商用を問わずご自由にお使いいただけます。
-- ソースコード等を引用する際の著作権表記は『スマートニュース メディア研究所・参議院オープンデータ』としてください。
+- ソースコード等を引用する際の著作権表記は「スマートニュース メディア研究所」または「SmartNews Media Research Institute」としてください。
 - なお、本プロジェクトの利用によって生じたいかなる損害についても、スマートニュース株式会社は一切責任を負いません。
-
